@@ -1,0 +1,62 @@
+/* Overall styles*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Responsive Framework*/
+
+.row{
+    width: 100%;
+}
+
+/* Desktop devices */
+@media (min-width: 992px) {
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+    .col-md-12{
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Styles */
+
+div#container {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    padding: 5px;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-bottom: 10px; 
+    position: relative;   
+}
+
+h1{
+    text-align: center;
+    font-size: 175%;
+    margin-bottom: 30px;
+}
+
+#title{
+    background-color: #c7a3c4;
+    border: 1px solid black;
+    font-weight: bold;
+    position: relative;
+    top: -6px;
+    margin: 0px;
+    padding: 0px;
+    width: 70px;
+    text-align: center;
+}
